@@ -1,0 +1,59 @@
+#-------------------------# 
+###Start Commit Template###
+#
+#
+# Title
+
+# Body
+
+
+# Footer
+
+#
+#
+###End of your Commit Msg###
+#--------------------------#
+#
+#
+# Keep each commit line under 50 characters
+#
+# 	Following conventional commits 1.0.0 
+#	------------------------------------
+# 	Use the prefix naming convention (types):
+#
+# 	chore: used for maintenance, doesn't result in a new version
+# 	fix: patches a bug in the codebase [x.x.1]
+# 	feat: introduces a new feature to the codebase [x.1.x]
+# 	feat!>: used for breaking changes, results in a new major version [1.x.x]
+# 	<refactor>: only used when refactoring code
+# 	<docs>: used when modifying/creating docs 
+# 	<build>: when preparing for a build 
+#
+# NOTE: "!" indicates breaking changes,
+#	and will always result in new major version,
+#	independent of the type of change.
+#
+# Commit example and ground rules:
+#
+# [Title]
+# <type>: Short description of your Commit. 50 characters min.
+# 
+# [Example ->]fix: Issue 6# got fixed 
+#	
+# [Body]
+# Here you can go deeper in to the explination of the commit Title 
+# and what this is supposed to achieve.
+# Also keep every "Body" line under 72 characters per line.
+#
+# [Example ->] With the fix for issue 6# the user can now use there own commit template's.
+#
+# [Footer]
+# Use this section to add any PR/Ticket numbers that this
+# commit is solving or any co-authors. If none of these apply, # leave it empty.
+# 
+# [Example ->]	fixed 6#, closed 6#
+#
+#				#Mentiong#
+#--Major thanks goes to Efren Marin his post on efren45marin.medium.com helped me a lot!--#
+#--And to mention https://github.com/thenativeweb/get-next-version.--#
+#--https://www.conventionalcommits.org/en/v1.0.0/--#
